@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: hsl(217, 54%, 11%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.card {
+  border-radius: 0.95rem;
+  padding: 1rem;
+  max-width: 18rem;
+  background-color: hsl(216, 50%, 16%);
+  height: 32rem;
+}
+
+.img-equilibrium {
+  position: absolute;
+  max-width: 16rem;
+  height: 16rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsla(178, 100%, 50%, 0.416);
+  opacity: 0;
+}
+
+.overlay img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.overlay:hover {
+  opacity: 2;
+  cursor: pointer;
+}
+
+.equilibrium {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 0.25rem;
+  line-height: 1.3;
+}
+
+.equilibrium:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+  padding: 0px 0.125rem 1.25rem;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.4;
+}
+
+.crypto-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 51%, 70%) ;
+  padding-bottom: 1.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 1rem;
+}
+
+.days span {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+.author {
+  padding: 1.15rem 0px;
+  display: flex;
+  align-content: center;
+}
+
+.avatar-img {
+  width: 2.5rem;
+  height: 40px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+}
+
+.creator {
+  font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  align-content: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.name {
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+  padding: 0.895rem 0.75rem;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution { 
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px;
+ }
+    
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+ }
